@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My Data &amp; Cloud Blog on Home</title>
+    <title>Modern Data Science on Home</title>
     <link>https://rockper.github.io/</link>
-    <description>Recent content in My Data &amp; Cloud Blog on Home</description>
+    <description>Recent content in Modern Data Science on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 29 Oct 2018 00:00:00 +0000</lastBuildDate>
@@ -19,6 +19,28 @@
       <guid>https://rockper.github.io/post/181028_jupyter_anywhere/</guid>
       <description>What Build an Amazon AMI, with your preferred data science tools, plus Jupyter. Use it from anywhere - all you need is a browser and keyboard.
 Why  Use any EC2 instance, including Free tier eligible Use EC2 spot instances to lower cost, when you have higher compute needs EC2 feels like a local desktop installation. Packages can be added interactively, as needed Useful for early stage data exploration, where flexibility with many tools is more important than versioning.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://rockper.github.io/about/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://rockper.github.io/about/</guid>
+      <description>Hugo is a static site engine written in Go.
+It makes use of a variety of open source projects including:
+ Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.
+Setup Some fun facts about Hugo:
+ Built in Go Loosely inspired by Jekyll Primarily developed by spf13 on the train while commuting to and from Manhattan. Coded in Vim using spf13-vim  Have questions or suggestions?</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://rockper.github.io/contact_blackburn/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://rockper.github.io/contact_blackburn/</guid>
+      <description> First Name  Last Name  E-Mail  City  State AL CA IL      Send   </description>
     </item>
     
     <item>
