@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Build and reuse an AMI for data science">
+  <meta name="generator" content="Hugo 0.49.2" />
+
+  <title>Jupyter anywhere - AWS setup &middot; Home</title>
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://rockper.github.io/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://rockper.github.io/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://rockper.github.io/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://rockper.github.ioimg/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://rockper.github.io/">Rock Pereira</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://rockper.github.io/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://rockper.github.io/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://rockper.github.io/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://rockper.github.io/contact/"><i class='fa fa-phone fa-fw'></i>Contact</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/_rockper" target="_blank"><i class="fa fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/rock-pereira" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/rockper" target="_blank"><i class="fa fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://stackoverflow.com/users//2334023/rock-pereira" target="_blank"><i class="fa fa-stack-overflow fa-fw"></i>Stack Overflow</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small></small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Jupyter anywhere - AWS setup</h1>
+  <h2>Build and reuse an AMI for data science</h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>29 Oct 2018, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://rockper.github.iotags/jupyter">jupyter</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://rockper.github.iotags/aws">aws</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://rockper.github.iotags/data_science">data_science</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  
+
+<p><img src="https://rockper.github.io/images/181026_jupyter_anywhere/jupyter_aws.jpg" alt="Jupyter on AWS" /></p>
+
+<h3 id="what">What</h3>
+
+<p>Build an Amazon AMI, with your preferred data science tools, plus Jupyter. Use it from anywhere - all you need is a browser and keyboard.</p>
+
+<h3 id="why">Why</h3>
+
+<ul>
+<li>Use any EC2 instance, including Free tier eligible</li>
+<li>Use EC2 spot instances to lower cost, when you have higher compute needs</li>
+<li>EC2 feels like a local desktop installation. Packages can be added interactively, as needed</li>
+<li>Useful for early stage data exploration, where flexibility with many tools is more important than versioning. In later stages, such as model development, versioning of both models and code becomes more important. Using docker images instead would provide reproducibility.</li>
+<li>AMIs are easy to update, so your newly installed packages will always be present.</li>
+<li>Mix and match multiple languages (R, Python, Julia) in a single AMI.</li>
+</ul>
+
+<h3 id="how">How</h3>
+
+<h4 id="1-launch-the-ec2-instance">1. Launch the EC2 Instance</h4>
+
+<ul>
+<li><p><strong>Step 1: Choose a base Amazon Machine Image (AMI)</strong></p>
+
+<ul>
+<li>&gt; Services (top) &gt; EC2 &gt; AMIs (left) &gt; Launch Instance (blue button)</li>
+<li>Select the check-box (left) for &ldquo;Free tier only&rdquo;</li>
+<li>In the search box, enter &ldquo;Ubuntu 18.04&rdquo;, without quotes</li>
+<li>Click &ldquo;AWS Marketplace&rdquo; (left)</li>
+<li>Click &ldquo;Select&rdquo; (blue button) for Ubuntu 18.04 LTS - Bionic from Canonical Group</li>
+<li>Click &ldquo;Continue&rdquo; (blue button) in the pop-up
+<br /></li>
+</ul></li>
+
+<li><p><strong>Step 2: Choose an Instance Type</strong></p>
+
+<ul>
+<li>Check &ldquo;t2.micro&rdquo; with the &ldquo;Free tier eligible&rdquo; tag</li>
+<li>Click &ldquo;Next: Configure Instance Details&rdquo; (grey button at bottom-right)
+<br /></li>
+</ul></li>
+
+<li><p><strong>Step 3: Configure Instance Details</strong></p>
+
+<ul>
+<li>Click &ldquo;Next: Add Storage&rdquo; (grey button at bottom-right)
+<br /></li>
+</ul></li>
+
+<li><p><strong>Step 4: Add Storage</strong></p>
+
+<ul>
+<li>VolumeType=Root, Device=/dev/sda1, Size=20 GiB. This is ephemeral storage. When the EC2 VM gets terminated, it gets deleted.</li>
+<li>Click &ldquo;Add New Volume&rdquo; (grey button below &ldquo;Root&rdquo;)</li>
+<li>VolumeType=EBS, Device=/dev/sdb, Size=10 GiB. This is persistent storage, for jupyter notebooks, and files you want to save between sessions.</li>
+<li>Click &ldquo;Next: Add Tags&rdquo; (grey button at bottom)
+<br /></li>
+</ul></li>
+
+<li><p><strong>Step 5: Add Tags</strong></p>
+
+<ul>
+<li>Click &ldquo;Next: Configure Security Group&rdquo;
+<br /></li>
+</ul></li>
+
+<li><p><strong>Step 6: Configure Security Group</strong></p>
+
+<ul>
+<li>Click &ldquo;Add Rule&rdquo; 3 times</li>
+<li>In the &ldquo;Type&rdquo; column drop-down (2nd row, just below &ldquo;SSH&rdquo;), select &ldquo;HTTP&rdquo;. Leave the other columns as default values</li>
+<li>In the &ldquo;Type&rdquo; column drop-down (3rd row), select &ldquo;HTTPS&rdquo;</li>
+<li>In the &ldquo;Type&rdquo; column drop-down (4th row), select &ldquo;Custom TCP&rdquo;. Set &ldquo;Port Range&rdquo;=4444 (Any number can be picked. This is our connect port for Jupyter). Set &ldquo;Source&rdquo;=0.0.0.0/0, ::/0</li>
+<li>Clear the &ldquo;Security group name&rdquo; box, and use a SG name such as &ldquo;Ubuntu 18.04 with Python, R, Jupyter&rdquo;</li>
+<li>Clear the &ldquo;Description&rdquo; box. Enter &ldquo;Data Science with Jupyter AMI&rdquo; or anything else</li>
+<li>Click &ldquo;Review and Launch&rdquo; (blue button at bottom)
+<br /></li>
+</ul></li>
+
+<li><p><strong>Step 7: Review Instance Launch</strong></p>
+
+<ul>
+<li>Create a new Key Pair. Key pair name=&ldquo;jupyter_ec2&rdquo;. Download</li>
+<li>Click &ldquo;Launch&rdquo; (blue button)
+<br /></li>
+</ul></li>
+</ul>
+
+<h4 id="2-install-anaconda-python">2. Install Anaconda Python</h4>
+
+<h4 id="3-install-r">3. Install R</h4>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+
+  
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'rockper-github-io';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+</div>
+
+</div>
+</div>
+<script src="https://rockper.github.iojs/ui.js"></script>
+
+
+<script>
+  
+  if (window.location.hostname != "localhost") {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-128208907-1', 'auto');
+    ga('send', 'pageview');
+  }
+</script>
+
+
+
+
+
+</body>
+</html>
+

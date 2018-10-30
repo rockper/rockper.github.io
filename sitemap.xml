@@ -3,90 +3,54 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://rockper.github.io/2017/04/14/chapter-vi-esmeralda/</loc>
-    <lastmod>2017-04-14T11:25:05-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://rockper.github.io/2017/04/13/chapter-v-quasimodo/</loc>
-    <lastmod>2017-04-13T11:15:58-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://rockper.github.io/2017/04/12/chapter-iv-master-jacques-coppenole/</loc>
-    <lastmod>2017-04-12T11:14:48-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://rockper.github.io/2017/04/11/chapter-iii-monsieur-the-cardinal/</loc>
-    <lastmod>2017-04-11T11:13:32-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://rockper.github.io/2017/04/10/chapter-ii-pierre-gringoire/</loc>
-    <lastmod>2017-04-10T11:00:59-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://rockper.github.io/2017/04/09/chapter-i-the-grand-hall/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://rockper.github.io/post/181028_jupyter_anywhere/</loc>
+    <lastmod>2018-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://rockper.github.io/post/</loc>
     <lastmod>2017-03-02T12:00:00-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://rockper.github.io/_header/</loc>
   </url>
   
   <url>
     <loc>https://rockper.github.io/about/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://rockper.github.io/categories/</loc>
-    <changefreq>monthly</changefreq>
+    <loc>https://rockper.github.io/tags/aws/</loc>
+    <lastmod>2018-10-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rockper.github.io/contact/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://rockper.github.io/tags/data_science/</loc>
+    <lastmod>2018-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rockper.github.io/tags/jupyter/</loc>
+    <lastmod>2018-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://rockper.github.io/</loc>
-    <lastmod>2017-04-14T11:25:05-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://rockper.github.io/tags/scene/</loc>
-    <lastmod>2017-04-12T11:14:48-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
+    <lastmod>2018-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://rockper.github.io/tags/</loc>
-    <lastmod>2017-04-12T11:14:48-04:00</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2018-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rockper.github.io/topics/</loc>
     <priority>0</priority>
   </url>
   

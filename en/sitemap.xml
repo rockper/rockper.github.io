@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://rockper.github.io/2018/10/28/181028_jupyter_anywhere/</loc>
+    <lastmod>2018-10-28T23:00:46-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://rockper.github.io/2017/04/14/chapter-6/</loc>
     <lastmod>2017-04-14T11:25:05-04:00</lastmod>
   </url>
@@ -38,12 +43,38 @@
   </url>
   
   <url>
+    <loc>https://rockper.github.io/_header/</loc>
+  </url>
+  
+  <url>
     <loc>https://rockper.github.io/about/</loc>
   </url>
   
   <url>
+    <loc>https://rockper.github.io/tags/aws/</loc>
+    <lastmod>2018-10-28T23:00:46-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rockper.github.io/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rockper.github.io/tags/data_science/</loc>
+    <lastmod>2018-10-28T23:00:46-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rockper.github.io/tags/jupyter/</loc>
+    <lastmod>2018-10-28T23:00:46-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://rockper.github.io/</loc>
-    <lastmod>2017-04-14T11:25:05-04:00</lastmod>
+    <lastmod>2018-10-28T23:00:46-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="sv"
@@ -57,10 +88,6 @@
   </url>
   
   <url>
-    <loc>https://rockper.github.io/contact/</loc>
-  </url>
-  
-  <url>
     <loc>https://rockper.github.io/tags/scene/</loc>
     <lastmod>2017-04-12T11:14:48-04:00</lastmod>
     <priority>0</priority>
@@ -68,7 +95,7 @@
   
   <url>
     <loc>https://rockper.github.io/tags/</loc>
-    <lastmod>2017-04-12T11:14:48-04:00</lastmod>
+    <lastmod>2018-10-28T23:00:46-07:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aws on Home</title>
+    <link>https://rockper.github.io/tags/aws/</link>
+    <description>Recent content in Aws on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rockper.github.io/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jupyter anywhere - AWS setup</title>
+      <link>https://rockper.github.io/post/181028_jupyter_anywhere/</link>
+      <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://rockper.github.io/post/181028_jupyter_anywhere/</guid>
+      <description>What Build an Amazon AMI, with your preferred data science tools, plus Jupyter. Use it from anywhere - all you need is a browser and keyboard.
+Why  Use any EC2 instance, including Free tier eligible Use EC2 spot instances to lower cost, when you have higher compute needs EC2 feels like a local desktop installation. Packages can be added interactively, as needed Useful for early stage data exploration, where flexibility with many tools is more important than versioning.</description>
+    </item>
+    
+  </channel>
+</rss>
